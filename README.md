@@ -3,8 +3,6 @@
 
 The Medical Informatics Platform is a complex information system comprising numerous software components designed and integrated by different SP8 partners. In this chapter we present the logical architecture of the MIP in SGA2, depicting some of its key characteristics and major building blocks. This description does not aim to be a detailed listing of all the software components produced to compose the MIP. It rather aims to assist in understanding the overall structure and interdependencies between the major services that comprise the MIP.
 
-Compared to previous versions of this deliverable, the architecture described here mirrors a fundamental enhancement that has been implemented towards product robustization. The &quot;Woken&quot; based analysis engine that was previously utilized for local analysis has been substituted by an augmented version of the &quot;EXAREME&quot; based analysis engine. The impact of this change has been impressive both in terms of ease of deployment as well as system stability.
-
 The following diagram Figure 1 - Overall Architecture, sketches at a very high level the overall architecture of the MIP. 
 
 ![Overall Architecture](/images/architecture.png)
