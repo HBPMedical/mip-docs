@@ -18,9 +18,10 @@ The MIP site documentation section contains a lot of useful information you will
 
 For further reading, you can also have a look at some of the technical deliverables produced during the course of development. Some technical deliverables include:
 
-- MIP Platform Release, Software and Report M12
-- MIP Platform Release, Software and Report M20
-- Others?
+- D8.5.2 (D52.2, D8 - SGA2 M12) Μedical Informatics Platform Releases - SOFTWARE & REPORT
+- D8.5.3 (D52.3, D9 - SGA2 M20) Μedical Informatics Platform Releases  -  SOFTWARE & REPORT
+
+These deliverables can be found at: [https://www.humanbrainproject.eu/en/about/governance/deliverables/sga2-phase/](https://www.humanbrainproject.eu/en/about/governance/deliverables/sga2-phase/)
 
 # Release Notes
 
