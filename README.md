@@ -25,13 +25,9 @@ These deliverables can be found at: [https://www.humanbrainproject.eu/en/about/g
 
 # Release Notes
 
-Current release, pertinent to this documentation is release 6.1. The release notes and individual component releases that comprise MIP 6.1.1 can be found at:
+Current version to be released, pertinent to this documentation is release 6.2. The release notes and individual component releases that comprise MIP 6.2 can be found at:
 
-- [https://github.com/HBPMedical/mip-deployment/releases/tag/6.1.1](https://github.com/HBPMedical/mip-deployment/releases/tag/6.1.1)
-
-Make sure to also check the release notes of MIP 6.1.0 at:
-
-- [https://github.com/HBPMedical/mip-deployment/releases/tag/6.1.0](https://github.com/HBPMedical/mip-deployment/releases/tag/6.1.0)
+- [https://github.com/HBPMedical/mip-deployment/tree/master](https://github.com/HBPMedical/mip-deployment/tree/master)
 
 # Architecture
 
@@ -61,7 +57,7 @@ A full list of the components, libraries, utilities and other artifacts can be f
 
 More information on the available federated analysis algorithms, although retrievable through the individual component list, can be directly found here:
 
-- [https://github.com/madgik/exareme/tree/22.2.3/Exareme-Docker/src/mip-algorithms](https://github.com/madgik/exareme/tree/22.2.3/Exareme-Docker/src/mip-algorithms)
+- [https://github.com/madgik/exareme/tree/22.4.1/Exareme-Docker/src/mip-algorithms](https://github.com/madgik/exareme/tree/22.4.1/Exareme-Docker/src/mip-algorithms)
 
 This includes documentation on existing algorithm federation approach as well as information related to creating a new algorithm.
 
@@ -75,9 +71,9 @@ For all details relating to the Data Factory, how to manage your data and proces
 
 The MIP comes with a single code base but with two modes of deployment. On for local usage only, and one that enables the creation of a federation of nodes. Information on the different deployment approaches can be found in the following locations:
 
-- Local: [https://github.com/HBPMedical/mip-deployment/tree/6.1.1](https://github.com/HBPMedical/mip-deployment/tree/6.1.1)
-- Federation: [https://github.com/HBPMedical/mip-deployment/tree/6.1.1/Federation](https://github.com/HBPMedical/mip-deployment/tree/6.1.1/Federation)
+- Local: [https://github.com/HBPMedical/mip-deployment/tree/master](https://github.com/HBPMedical/mip-deployment/tree/master)
+- Federation: [https://github.com/HBPMedical/mip-deployment/tree/master/Federation](https://github.com/HBPMedical/mip-deployment/tree/master/Federation)
 
 In the case of federation, the analysis engine at this time requires a separate installation procedure that can be found at:
 
-- [https://github.com/madgik/exareme/tree/22.2.3/Federated-Deployment](https://github.com/madgik/exareme/tree/22.2.3/Federated-Deployment)
+- [https://github.com/madgik/exareme/tree/22.4.1/Federated-Deployment](https://github.com/madgik/exareme/tree/22.4.1/Federated-Deployment)
