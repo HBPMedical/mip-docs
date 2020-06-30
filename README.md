@@ -27,7 +27,7 @@ These deliverables can be found at: [https://www.humanbrainproject.eu/en/about/g
 
 Current version to be released, pertinent to this documentation is release 6.2. The release notes and individual component releases that comprise MIP 6.2 can be found at:
 
-- [https://github.com/HBPMedical/mip-deployment/tree/master](https://github.com/HBPMedical/mip-deployment/tree/master)
+- [https://github.com/HBPMedical/mip-deployment/tree/6.2.0](https://github.com/HBPMedical/mip-deployment/tree/6.2.0)
 
 # Architecture
 
@@ -71,8 +71,8 @@ For all details relating to the Data Factory, how to manage your data and proces
 
 The MIP comes with a single code base but with two modes of deployment. On for local usage only, and one that enables the creation of a federation of nodes. Information on the different deployment approaches can be found in the following locations:
 
-- Local: [https://github.com/HBPMedical/mip-deployment/tree/master](https://github.com/HBPMedical/mip-deployment/tree/master)
-- Federation: [https://github.com/HBPMedical/mip-deployment/tree/master/Federation](https://github.com/HBPMedical/mip-deployment/tree/master/Federation)
+- Local: [https://github.com/HBPMedical/mip-deployment/tree/6.2.0](https://github.com/HBPMedical/mip-deployment/tree/6.2.0)
+- Federation: [https://github.com/HBPMedical/mip-deployment/tree/6.2.0/Federation](https://github.com/HBPMedical/mip-deployment/tree/6.2.0/Federation)
 
 In the case of federation, the analysis engine at this time requires a separate installation procedure that can be found at:
 
