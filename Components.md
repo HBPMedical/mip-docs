@@ -2,10 +2,10 @@
 
 These are the repositories with all the independent components that MIP is composed of:
 <ul>
-	<li>The "Web App" is the interface of MIP: https://github.com/HBPMedical/portal-frontend/tree/6.4.3 </li>
-	<li>The "Backend API" supports the Web App : https://github.com/HBPMedical/portal-backend/tree/6.1.3 </li>
-	<li>The "Workflow Engine" provides the ability to unite separate algorithms into one larger one: https://github.com/madgik/galaxy/tree/1.3.1 </li>
-	<li>The "Analysis Engine" offers the federated analysis capabilities: https://github.com/madgik/exareme/tree/22.4.1 </li>
+	<li>The "Web App" is the interface of MIP: https://github.com/HBPMedical/portal-frontend/tree/6.4.9 </li>
+	<li>The "Backend API" supports the Web App : https://github.com/HBPMedical/portal-backend/tree/6.3.0 </li>
+	<li>The "Workflow Engine" provides the ability to unite separate algorithms into one larger one: https://github.com/madgik/galaxy/tree/1.3.4 </li>
+	<li>The "Analysis Engine" offers the federated analysis capabilities: https://github.com/madgik/exareme/tree/23.4.1 </li>
 	<li>Data Catalogue: https://github.com/HBPMedical/DataCatalogue/tree/v2.1 </li>
 	<li>Data Factory: https://github.com/HBPMedical/ehr-datafactory-template </li>
 	<li>MIPMap: https://github.com/HBPMedical/MIPMap </li>
