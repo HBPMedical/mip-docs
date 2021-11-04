@@ -67,6 +67,9 @@ For all details relating to the Data Factory, how to manage your data and proces
 
 - [https://mip.ebrains.eu/documentation/User%20Manuals/6](https://mip.ebrains.eu/documentation/User%20Manuals/6)
 
+A detailed user guide for Data Quality Control tool can be found here:
+ - [https://github.com/HBPMedical/DataQualityControlTool/wiki](https://github.com/HBPMedical/DataQualityControlTool/wiki)
+
 # Deployment
 
 The MIP comes with a single code base but with two modes of deployment. On for local usage only, and one that enables the creation of a federation of nodes. Information on the different deployment approaches can be found in the following locations:
