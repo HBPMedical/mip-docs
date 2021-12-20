@@ -1,6 +1,6 @@
 # Preamble
 
-This MIP System Description is an index for a collection of documents and other sources of information related to the Medical Informatics Platform. The intended audience comprises developers, technical deployment and support teams, and anyone else with a deep technical interest in the functioning of the MIP. Its purpose is to facilitate access to a range of information necessary to represent the current state of the MIP. It should provide adequate material for suitably qualified staff to understand how the MIP works, and to develop, deploy and operate the MIP.
+This repsoitory is an index for a collection of documents and other sources of information related to the Medical Informatics Platform. The intended audience comprises developers, technical deployment and support teams, and anyone else with a deep technical interest in the functioning of the MIP. Its purpose is to facilitate access to a range of information necessary to represent the current state of the MIP. It should provide adequate material for suitably qualified staff to understand how the MIP works, and to develop, deploy and operate the MIP.
 
 This information is evolving along with the MIP so please make sure you consult the document version that is relevant to the indented, or preferably, latest version of the Medical Informatics Platform.
 
@@ -10,11 +10,7 @@ In the following sections, links and references to useful information is made av
 
 For a high-level description of the MIP please consult the MIP Executive Summary at:
 
-- [https://mip.ebrains.eu/documentation/Deployment%20Pack/1](https://mip.ebrains.eu/documentation/Deployment%20Pack/1)
-
-The MIP site documentation section contains a lot of useful information you will want to go through at:
-
-- [https://mip.ebrains.eu/documentation](https://mip.ebrains.eu/documentation)
+- [Executive Summary](./deployment-pack/executive-summary.md)
 
 For further reading, you can also have a look at some of the technical deliverables produced during the course of development. Some technical deliverables include:
 
@@ -39,7 +35,11 @@ For a high-level view of the architecture, the main building blocks and data flo
 
 The installation prerequisites, hardware requirements and other considerations prior to deploying and running the MIP can be found at:
 
-- [https://mip.ebrains.eu/documentation/Deployment%20Pack/3](https://mip.ebrains.eu/documentation/Deployment%20Pack/3)
+- [Deployment Pack (PDF)](./docs/MIP_Executive_Summary_V02.00_7960b8432e.pdf)
+- [Installation and License Agreement (PDF)](./docs/MIP_Installation_and_License_Agreement_-_V02.10_210c5d6538.pdf)
+- [Installation Prerequisites and Installation Guide](./deployment-pack/install-prerequisites.md)
+- [Ethics and Legal Requirements](./deployment-pack/ethics-legal.md)
+- [FAQ](./deployment-pack/faq.md)
 
 # MIP Components
 
@@ -57,7 +57,7 @@ A full list of the components, libraries, utilities and other artifacts can be f
 
 More information on the available federated analysis algorithms, although retrievable through the individual component list, can be directly found here:
 
-- [https://github.com/madgik/exareme/tree/24.1.2/Exareme-Docker/src/mip-algorithms](https://github.com/madgik/exareme/tree/24.1.2/Exareme-Docker/src/mip-algorithms)
+- [https://github.com/madgik/exareme/tree/master/Exareme-Docker/src/mip-algorithms](https://github.com/madgik/exareme/tree/master/Exareme-Docker/src/mip-algorithms)
 
 This includes documentation on existing algorithm federation approach as well as information related to creating a new algorithm.
 
@@ -65,7 +65,7 @@ This includes documentation on existing algorithm federation approach as well as
 
 For all details relating to the Data Factory, how to manage your data and process it for use with the MIP, please consult the following document
 
-- [https://mip.ebrains.eu/documentation/User%20Manuals/6](https://mip.ebrains.eu/documentation/User%20Manuals/6)
+- [./docs/10-MIP_Data_Factory_Set_Up_and_User_Guide_(MIP_5.0)_7-7-2020_013fcc3ec6.pdf](./docs/10-MIP_Data_Factory_Set_Up_and_User_Guide_(MIP_5.0)_7-7-2020_013fcc3ec6.pdf)
 
 A detailed user guide for Data Quality Control tool can be found here:
  - [https://github.com/HBPMedical/DataQualityControlTool/wiki](https://github.com/HBPMedical/DataQualityControlTool/wiki)
@@ -74,9 +74,12 @@ A detailed user guide for Data Quality Control tool can be found here:
 
 The MIP comes with a single code base but with two modes of deployment. On for local usage only, and one that enables the creation of a federation of nodes. Information on the different deployment approaches can be found in the following locations:
 
-- Local: [https://github.com/HBPMedical/mip-deployment/tree/6.4.0](https://github.com/HBPMedical/mip-deployment/tree/6.4.0)
+- Local: [https://github.com/HBPMedical/mip-deployment](https://github.com/HBPMedical/mip-deployment)
 - Federation: [https://github.com/HBPMedical/mip-deployment/tree/6.4.0/Federation](https://github.com/HBPMedical/mip-deployment/tree/6.4.0/Federation)
 
 In the case of federation, the analysis engine at this time requires a separate installation procedure that can be found at:
 
 - [https://github.com/madgik/exareme/tree/24.1.2/Federated-Deployment](https://github.com/madgik/exareme/tree/24.1.2/Federated-Deployment)
+
+# Tutorial
+- Basic skills to start working with the MIP and conduct initial experiments [Videos List](./video-tutorial.md)
