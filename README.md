@@ -8,22 +8,24 @@ In the following sections, links and references to useful information is made av
 
 # High Level Description
 
-For a high-level description of the MIP please consult the MIP Executive Summary at:
+For a high-level description of the MIP please consult:
 
 - [Executive Summary](./deployment-pack/executive-summary.md)
+- [The MIP: A powerful federated data processing and analysis system that preserves patient privacy](https://ebrains.eu/service/medical-informatics-platform/) on EBRAINS research infrastructure
 
 For further reading, you can also have a look at some of the technical deliverables produced during the course of development. Some technical deliverables include:
 
-- D8.5.2 (D52.2, D8 - SGA2 M12) Μedical Informatics Platform Releases - SOFTWARE & REPORT
-- D8.5.3 (D52.3, D9 - SGA2 M20) Μedical Informatics Platform Releases  -  SOFTWARE & REPORT
+- [D8.5.2 (D52.2, D8 - SGA2 M12) Μedical Informatics Platform Releases - SOFTWARE & REPORT (PDF)](https://sos-ch-dk-2.exo.io/public-website-production/filer_public/e0/1d/e01dd6b7-7223-4ecd-b7fb-468eab47a62e/d852_d522_d8_sga2_m12_accepted_190722.pdf)
+- [D8.5.3 (D52.3, D9 - SGA2 M20) Μedical Informatics Platform Releases  -  SOFTWARE & REPORT (PDF)](https://sos-ch-dk-2.exo.io/public-website-production/filer_public/a6/97/a697ebed-cc74-463d-a4d5-c75e2b922c2b/d853_d523_d9_sga2_m20_accepted_200731.pdf)
 
 These deliverables can be found at: [https://www.humanbrainproject.eu/en/about/governance/deliverables/sga2-phase/](https://www.humanbrainproject.eu/en/about/governance/deliverables/sga2-phase/)
 
 # Release Notes
 
-Current version to be released, pertinent to this documentation is release 6.4 . The release notes and individual component releases that comprise MIP 6.4 can be found at:
+Current version, pertinent to this documentation is release 6.4. The release notes and individual component releases that comprise MIP 6.4 can be found at:
 
 - [https://github.com/HBPMedical/mip-deployment/tree/6.4.0](https://github.com/HBPMedical/mip-deployment/tree/6.4.0)
+- [Frontend Changelog](https://github.com/HBPMedical/portal-frontend/blob/main/CHANGELOG.md)
 
 # Architecture
 
@@ -65,7 +67,7 @@ This includes documentation on existing algorithm federation approach as well as
 
 For all details relating to the Data Factory, how to manage your data and process it for use with the MIP, please consult the following document
 
-- [./docs/10-MIP_Data_Factory_Set_Up_and_User_Guide_(MIP_5.0)_7-7-2020_013fcc3ec6.pdf](./docs/10-MIP_Data_Factory_Set_Up_and_User_Guide_(MIP_5.0)_7-7-2020_013fcc3ec6.pdf)
+- [docs/10-MIP_Data_Factory_Set_Up_and_User_Guide_(MIP_5.0)_7-7-2020_013fcc3ec6.pdf](./docs/10-MIP_Data_Factory_Set_Up_and_User_Guide_(MIP_5.0)_7-7-2020_013fcc3ec6.pdf)
 
 A detailed user guide for Data Quality Control tool can be found here:
  - [https://github.com/HBPMedical/DataQualityControlTool/wiki](https://github.com/HBPMedical/DataQualityControlTool/wiki)

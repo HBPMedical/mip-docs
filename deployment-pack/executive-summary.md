@@ -202,8 +202,6 @@ centres, they have to follow the next steps:
 
 6.  Perform federated analysis.
 
-*image*
-
 Contacts
 ========
 
