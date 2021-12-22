@@ -43,6 +43,11 @@ The installation prerequisites, hardware requirements and other considerations p
 - [Ethics and Legal Requirements](./deployment-pack/ethics-legal.md)
 - [FAQ](./deployment-pack/faq.md)
 
+
+- [Data Sharing and Processing Agreement (PDF)](./docs/Data_Sharing_and_Processing_Agreement_June2021_v2.pdf)
+- [Data Transfer Agreement (PDF)](./docs/DTA_EBRAINS_June2021_v2.pdf)
+- [MIP Service Agreement and Software Licences (PDF)](./docs/MIP_Service_Agreement_and_Software_Licenses_Dec21.pdf)
+
 # MIP Components
 
 The main MIP building blocks are listed along with the respective repositories that host them at
@@ -67,7 +72,7 @@ This includes documentation on existing algorithm federation approach as well as
 
 For all details relating to the Data Factory, how to manage your data and process it for use with the MIP, please consult the following document
 
-- [docs/10-MIP_Data_Factory_Set_Up_and_User_Guide_(MIP_5.0)_7-7-2020_013fcc3ec6.pdf](./docs/10-MIP_Data_Factory_Set_Up_and_User_Guide_(MIP_5.0)_7-7-2020_013fcc3ec6.pdf)
+- [Data Management Guide (PDF)](./docs/MIP_DATA_Management_Guideline_221221.pdf)
 
 A detailed user guide for Data Quality Control tool can be found here:
  - [https://github.com/HBPMedical/DataQualityControlTool/wiki](https://github.com/HBPMedical/DataQualityControlTool/wiki)
