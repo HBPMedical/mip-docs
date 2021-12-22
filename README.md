@@ -91,5 +91,6 @@ In the case of federation, the analysis engine at this time requires a separate 
 
 - [https://github.com/madgik/exareme/tree/24.1.2/Federated-Deployment](https://github.com/madgik/exareme/tree/24.1.2/Federated-Deployment)
 
-# Tutorial
+# Tutorials
 - Basic skills to start working with the MIP and conduct initial experiments [Videos List](./video-tutorial.md)
+- [MIP Guide](./docs/mip_guide_updated.pdf)
