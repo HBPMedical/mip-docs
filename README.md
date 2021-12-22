@@ -62,7 +62,9 @@ A full list of the components, libraries, utilities and other artifacts can be f
 
 # Federated Analysis Algorithms
 
-More information on the available federated analysis algorithms, although retrievable through the individual component list, can be directly found here:
+- [Available federated analysis algorithms](./algorithms.md)
+
+Retrievable through the individual component list, can be directly found here:
 
 - [https://github.com/madgik/exareme/tree/master/Exareme-Docker/src/mip-algorithms](https://github.com/madgik/exareme/tree/master/Exareme-Docker/src/mip-algorithms)
 
