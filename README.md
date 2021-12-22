@@ -77,6 +77,9 @@ For all details relating to the Data Factory, how to manage your data and proces
 A detailed user guide for Data Quality Control tool can be found here:
  - [https://github.com/HBPMedical/DataQualityControlTool/wiki](https://github.com/HBPMedical/DataQualityControlTool/wiki)
 
+Data Catalogue is a component of the Medical Informatics Platform (MIP) for the Human Brain Project. Initially, it was designed and tasked to be the single source of truth of metadata descriptions for data residing in hospitals that have joined the MIP.
+ - [https://github.com/HBPMedical/DataCatalogue](https://github.com/HBPMedical/DataCatalogue)
+
 # Deployment
 
 The MIP comes with a single code base but with two modes of deployment. On for local usage only, and one that enables the creation of a federation of nodes. Information on the different deployment approaches can be found in the following locations:
