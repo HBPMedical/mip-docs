@@ -44,9 +44,9 @@ The installation prerequisites, hardware requirements and other considerations p
 - [FAQ](./deployment-pack/faq.md)
 
 
-- [Data Sharing and Processing Agreement (PDF)](./docs/Data_Sharing_and_Processing_Agreement_June2021_v2.pdf)
-- [Data Transfer Agreement (PDF)](./docs/DTA_EBRAINS_June2021_v2.pdf)
-- [MIP Service Agreement and Software Licences (PDF)](./docs/MIP_Service_Agreement_and_Software_Licenses_Dec21.pdf)
+- [Data Sharing and Processing Agreement](./docs/Data_Sharing_and_Processing_Agreement_June2021_v2.pdf)
+- [Data Transfer Agreement](./docs/DTA_EBRAINS_June2021_v2.pdf)
+- [MIP Service Agreement and Software Licences](./docs/MIP_Service_Agreement_and_Software_Licenses_Dec21.pdf)
 
 # MIP Components
 
