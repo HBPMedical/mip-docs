@@ -1,7 +1,20 @@
-# Technical Documentation for the Medical Informatics Platform (MIP) 
+# Technical Documentation for the Medical Informatics Platform (MIP)  <!-- omit in toc --> 
 
 
 A powerful federated data processing and analysis system that preserves patient privacy. More info on the [MIP Website](https://ebrains.eu/service/medical-informatics-platform/) 
+
+# Table of Content <!-- omit in toc --> 
+
+- [Preamble](#preamble)
+- [6.5 Release](#65-release)
+- [MIP Components](#mip-components)
+- [Deployment](#deployment)
+- [Federated Analysis Algorithms](#federated-analysis-algorithms)
+- [Data Management](#data-management)
+- [High Level Description](#high-level-description)
+- [Architecture](#architecture)
+- [Installation Prerequisites](#installation-prerequisites)
+- [Tutorials](#tutorials)
 
 # Preamble
 
@@ -51,15 +64,8 @@ Data Catalogue is a component of the Medical Informatics Platform (MIP) for the 
 
 For a high-level description of the MIP please consult:
 
-- [Executive Summary](./deployment-pack/executive-summary.md)
 - [The MIP: A powerful federated data processing and analysis system that preserves patient privacy](https://ebrains.eu/service/medical-informatics-platform/) on EBRAINS research infrastructure
 
-For further reading, you can also have a look at some of the technical deliverables produced during the course of development. Some technical deliverables include:
-
-- [D8.5.2 (D52.2, D8 - SGA2 M12) Μedical Informatics Platform Releases - SOFTWARE & REPORT (PDF)](https://sos-ch-dk-2.exo.io/public-website-production/filer_public/e0/1d/e01dd6b7-7223-4ecd-b7fb-468eab47a62e/d852_d522_d8_sga2_m12_accepted_190722.pdf)
-- [D8.5.3 (D52.3, D9 - SGA2 M20) Μedical Informatics Platform Releases  -  SOFTWARE & REPORT (PDF)](https://sos-ch-dk-2.exo.io/public-website-production/filer_public/a6/97/a697ebed-cc74-463d-a4d5-c75e2b922c2b/d853_d523_d9_sga2_m20_accepted_200731.pdf)
-
-These deliverables can be found at: [https://www.humanbrainproject.eu/en/about/governance/deliverables/sga2-phase/](https://www.humanbrainproject.eu/en/about/governance/deliverables/sga2-phase/)
 
 # Architecture
 
@@ -73,6 +79,3 @@ These deliverables can be found at: [https://www.humanbrainproject.eu/en/about/g
 - Basic skills to start working with the MIP and conduct initial experiments [Videos List](./video-tutorial.md)
 - [MIP Guide](./docs/mip_guide_updated.pdf)
 
-A full list of the components, libraries, utilities and other artifacts can be found at:
-
-- [https://github.com/HBPMedical/](https://github.com/HBPMedical/)
