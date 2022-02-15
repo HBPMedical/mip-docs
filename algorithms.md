@@ -2,7 +2,7 @@
 
 More information on the available federated analysis algorithms, although retrievable through the individual component list, can be directly found on [https://github.com/madgik/exareme/tree/24.3.0/Exareme-Docker/src/mip-algorithms](https://github.com/madgik/exareme/tree/24.3.0/Exareme-Docker/src/mip-algorithms)
 
-This includes documentation on existing algorithm federation approach as well as information related to creating a new algorithm.
+This includes documentation on existing algorithm federation approach, unit tests, as well as information related to creating a new algorithm.
 
 
 ###  k-Means Clustering
