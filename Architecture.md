@@ -1,7 +1,7 @@
 
 ## Medical Informatics Platform Architecture
 
-The Medical Informatics Platform is a complex information system comprising numerous software components designed and integrated by different SP8 partners. In this chapter we present the logical architecture of the MIP, depicting some of its key characteristics and major building blocks. This description does not aim to be a detailed listing of all the software components produced to compose the MIP. It rather aims to assist in understanding the overall structure and interdependencies between the major services that comprise the MIP.
+The Medical Informatics Platform is a complex information system comprising numerous software components. In this chapter we present the logical architecture of the MIP, depicting some of its key characteristics and major building blocks. This description does not aim to be a detailed listing of all the software components produced to compose the MIP. It rather aims to assist in understanding the overall structure and interdependencies between the major services that comprise the MIP.
 
 The following diagram Figure 1 - Overall Architecture, sketches at a very high level the overall architecture of the MIP. 
 
