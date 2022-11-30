@@ -26,9 +26,11 @@ In the following sections, links and references to useful information is made av
 
 # 7.0 Release
 
-The 7.0 release provides, besides general stability improvements, the capability to include additional variables in experiments. Variables can be calculated in an ad-hoc fashion through user-defined formula expressions, enhancements related to core descriptive statistics calculations will result in improved visualisation outputs for the user.
+The 7.0 release integrates a mechanism for Secure Multiparty Computation (SMPC), providing cryptographic guaranties that local, partial, results are never known. The feature is provided as an opt-in deployment configuration option and allows fine grained control over the enforcement of the SMPC pipeline.
 
-This new functionality can be used for Descriptive Statistics and Logistic Regression, and provides the ability to add transformations on continuous variables, with log, exp, centre, standardisation functions and a feature to add interactions between pairs of continuous variables.
+Additionally, MIP deployment and operations has been moved to an orchestrator based approach and is currently offered through a Kubernetes managed cluster.
+
+Several improvements are included in the MIP 7.0 release, including aspects for its scalability, performance, stability, operation and management. Health monitoring endpoints and visualization improvements have been introduced while experiment outcomes are now comprehensively bundled and are available for exporting from the end-users
 
 Current version, pertinent to this documentation is release 7.0. See [the release notes and individual component releases that comprise MIP 7.0.0.](./Components.md)
 
@@ -52,12 +54,10 @@ This includes documentation on existing algorithm federation approach as well as
 
 
 # SMPC Integration
-Integration with the SMPC engine is provided. Further, besides scalability improvements, it provides the capability to include additional variables in experiments. 
-Variables can be calculated in an ad-hoc fashion through user-defined formula expressions, enhancements related to core descriptive statistics calculations will result in improved visualisation outputs for the user.
 
-This new functionality can be used for Descriptive Statistics and Logistic Regression, and provides the ability to add transformations on continuous variables, 
-with log, exp, centre, standardisation functions and a feature to add interactions between pairs of continuous variables.
+Integration with the SMPC engine is provided. The mechanism of Secure Multiparty Computation (SMPC) provides cryptographic guaranties that local, partial, results are never known. This way, a distributed system can behave like a single, centralized database. On top of this privacy enhancing technique, the MIP continues offering its federated analysis with its existing privacy aware methodologies, orthogonal to the additional layer of cryptographic privacy.
 
+The SMPC enabling layer is offered as an opt-in feature at the time of federation setup, allowing the provisioning and bootstrapping of an SMPC cluster. In addition to the cluster bootstrapping and configuration options given at infrastructure setup time, furhter, refined control can be provided at a per algorithm selection level to permit or enforce the usage of the SMPC pipelining.
 
 # Data Management
 
