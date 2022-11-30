@@ -51,6 +51,14 @@ This includes documentation on existing algorithm federation approach as well as
 - [MIP-Engine Analytic Engine](https://github.com/madgik/MIP-Engine/tree/0.13.2)
 
 
+# SMPC Integration
+Integration with the SMPC engine is provided. Further, besides scalability improvements, it provides the capability to include additional variables in experiments. 
+Variables can be calculated in an ad-hoc fashion through user-defined formula expressions, enhancements related to core descriptive statistics calculations will result in improved visualisation outputs for the user.
+
+This new functionality can be used for Descriptive Statistics and Logistic Regression, and provides the ability to add transformations on continuous variables, 
+with log, exp, centre, standardisation functions and a feature to add interactions between pairs of continuous variables.
+
+
 # Data Management
 
 For all details relating to the Data Factory, how to manage your data and process it for use with the MIP, please consult the following document
