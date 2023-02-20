@@ -63,13 +63,13 @@ The SMPC enabling layer is offered as an opt-in feature at the time of federatio
 
 For all details relating to the Data Factory, how to manage your data and process it for use with the MIP, please consult the following document
 
-- [Data Management Guide (PDF)](./docs/MIP_DATA_Management_Guideline_221221.pdf)
+- [Data Management Guide](https://github.com/HBPMedical/mip-docs/blob/master/MIP_Data_management_documentation.md)
 
 A detailed user guide for Data Quality Control tool can be found here:
- - [https://github.com/HBPMedical/DataQualityControlTool/wiki](https://github.com/HBPMedical/DataQualityControlTool/wiki)
+ - [Data Quality Control Tool Guide](https://github.com/HBPMedical/DataQualityControlTool/wiki)
 
 Data Catalogue is a component of the Medical Informatics Platform (MIP) for the Human Brain Project. Initially, it was designed and tasked to be the single source of truth of metadata descriptions for data residing in hospitals that have joined the MIP.
- - [https://github.com/HBPMedical/DataCatalogue](https://github.com/HBPMedical/DataCatalogue)
+ - [Data Catalogue Guide](https://github.com/HBPMedical/DataCatalogue)
 
 # High Level Description
 
