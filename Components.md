@@ -16,5 +16,4 @@ These are the repositories with all the independent components that MIP is compo
 - MIPMap configuration: [https://github.com/HBPMedical/ehr-mapping-design-template](https://github.com/HBPMedical/ehr-mapping-design-template) 
 - LORIS: [https://github.com/HBPMedical/LORIS-for-MIP](https://github.com/HBPMedical/LORIS-for-MIP) 
 - Data Factory: [https://github.com/HBPMedical/ehr-datafactory-template](https://github.com/HBPMedical/ehr-datafactory-template)
-- MIPMap configuration: [https://github.com/HBPMedical/ehr-mapping-design-template](https://github.com/HBPMedical/ehr-mapping-design-template)
 - Anonymization Modules: [https://github.com/aueb-wim/anonymization-4-federation](https://github.com/aueb-wim/anonymization-4-federation)
