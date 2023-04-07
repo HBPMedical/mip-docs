@@ -91,6 +91,4 @@ For a high-level description of the MIP please consult:
 - [MIP Guide](./docs/mip_guide_updated.pdf)
 
 # Acknowledgement
-This project/research received funding from the European Union’s Horizon 2020 Framework 
-Programme for Research and Innovation under the Framework Partnership Agreement No. 650003 
-(HBP FPA).
+This project/research received funding from the European Union’s Horizon 2020 Framework Programme for Research and Innovation under the Framework Partnership Agreement No. 650003 (HBP FPA).
