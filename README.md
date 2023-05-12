@@ -6,7 +6,7 @@ A powerful federated data processing and analysis system that preserves patient 
 # Table of Content <!-- omit in toc --> 
 
 - [Preamble](#preamble)
-- [7.0 Release](#50-release)
+- [7.1 Release](#71-release)
 - [MIP Components](#mip-components)
 - [Deployment](#deployment)
 - [Federated Analysis Algorithms](#federated-analysis-algorithms)
@@ -24,15 +24,15 @@ This information is evolving along with the MIP so please make sure you consult 
 
 In the following sections, links and references to useful information is made available.
 
-# 7.0 Release
+# 7.1 Release
 
-The 7.0 release integrates a mechanism for Secure Multiparty Computation (SMPC), providing cryptographic guaranties that local, partial, results are never known. The feature is provided as an opt-in deployment configuration option and allows fine grained control over the enforcement of the SMPC pipeline.
+The 7.1 release integrates a mechanism for Secure Multiparty Computation (SMPC), providing cryptographic guaranties that local, partial, results are never known. The feature is provided as an opt-in deployment configuration option and allows fine grained control over the enforcement of the SMPC pipeline.
 
 Additionally, MIP deployment and operations has been moved to an orchestrator based approach and is currently offered through a Kubernetes managed cluster.
 
-Several improvements are included in the MIP 7.0 release, including aspects for its scalability, performance, stability, operation and management. Health monitoring endpoints and visualization improvements have been introduced while experiment outcomes are now comprehensively bundled and are available for exporting from the end-users
+Several improvements are included in the MIP 7.1 release, including aspects for its scalability, performance, stability, operation and management. Health monitoring endpoints and visualization improvements have been introduced while experiment outcomes are now comprehensively bundled and are available for exporting from the end-users
 
-Current version, pertinent to this documentation is release 7.0. See [the release notes and individual component releases that comprise MIP 7.0.0.](./Components.md)
+Current version, pertinent to this documentation is release 7.1 . See [the release notes and individual component releases that comprise MIP 7.1](./Components.md)
 
 # MIP Components
 
@@ -42,15 +42,15 @@ The main [MIP building blocks](./Components.md) are listed along with the respec
 
 The MIP comes with a single code base but with two modes of deployment. On for local usage only, and one that enables the creation of a federation of nodes. Information on the different deployment approaches can be found in the following location:
 
-- [https://github.com/HBPMedical/mip-deployment/tree/7.0.0](https://github.com/HBPMedical/mip-deployment/tree/7.0.0)
+- [https://github.com/HBPMedical/mip-deployment/tree/7.1.0](https://github.com/HBPMedical/mip-deployment/tree/7.1.0)
 
 # Federated Analysis Algorithms
 
 This includes documentation on existing algorithm federation approach as well as information related to creating a new algorithm.
 
 - [Available federated analysis algorithms](./algorithms.md)
-- [Exareme Analytic Engine](https://github.com/madgik/exareme/tree/24.5.0)
-- [MIP-Engine Analytic Engine](https://github.com/madgik/MIP-Engine/tree/0.13.2)
+- [Exareme Analytic Engine](https://github.com/madgik/exareme/tree/24.5.1)
+- [MIP-Engine Analytic Engine](https://github.com/madgik/MIP-Engine/tree/0.17.1)
 
 
 # SMPC Integration
