@@ -5,9 +5,9 @@
 
 **Author (MIP Support Team)**
 
-**Version 4.0**
+**Version 5.0**
 
-**2023 ****02 15******
+**2023 ****09 19******
 
 # Acronyms
 
@@ -240,7 +240,7 @@ Once the CDEs have been defined, the process of preparing hospital data for inge
 
 !NOTE: In case a hospital wants to join an existing federation, it should download the pre-defined CDEs from the Data Catalogue web-based application and contact the federation leader to be able to join the federation (see already existing federations and medical conditions available on the MIP in the following sub-sections of this document).
 
-### Supported Federations and their associated Medical Conditions as of February 2023
+### Supported Federations and their associated Medical Conditions as of September 2023
 
 Each CDE associated with a Medical Condition within a federation of hospitals is under the responsibility of a "Federation Leader". The role of the "Federation Leader" is to ensure that the CDE of a Medical Condition evolves over time in a coordinated and versioned manner. The table below gives an initial view of all existing Medical Conditions with the corresponding versions of CDEs and the leader contact in use as of February 2023. For updated information about the available defined medical conditions, please refer to the Data Catalogue web-based application.
 
