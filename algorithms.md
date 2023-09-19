@@ -15,24 +15,12 @@ Analysis of variance (ANOVA) is a collection of statistical models and their ass
 
 [Documentation](https://github.com/madgik/exareme/tree/master/Exareme-Docker/src/mip-algorithms/ANOVA)
 
-### CART
-The purpose of the CART algorithm is to construct a binary decision tree for the given dataset. The training procedure is different for regression and classification trees.  
-[Documentation](https://github.com/madgik/exareme/tree/master/Exareme-Docker/src/mip-algorithms/CART)
 
 ### Calibration Belt
 This is an original algorithm aiming to compute a confidence band for the calibration curve, in order to validate the predictive power of some model against independent samples.  
 
 [Documentation](https://github.com/madgik/exareme/tree/master/Exareme-Docker/src/mip-algorithms/CALIBRATION_BELT)
 
-### ID3
-The purpose of the ID3 algorithm is to construct a decision tree for the given dataset. In ID3 all the attributes should be categorical.  
-
-[Documentation](https://github.com/madgik/exareme/tree/master/Exareme-Docker/src/mip-algorithms/ID3)
-
-### Kaplan-Meier Estimator
-The Kaplan–Meier estimator, also known as the product limit estimator, is a non-parametric statistic used to estimate the survival function from lifetime data. In medical research, it is often used to measure the fraction of patients living for a certain amount of time after treatment.  [Wikipedia](https://en.wikipedia.org/wiki/Kaplan%E2%80%93Meier_estimator)
-  
-[Documentation](https://github.com/madgik/exareme/tree/master/Exareme-Docker/src/mip-algorithms/KAPLAN_MEIER)
 
 ### Linear Regression
 Linear regression is a linear approach to modeling the relationship between a dependent variable and one or more independent variables.
