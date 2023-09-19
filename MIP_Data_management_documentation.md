@@ -253,8 +253,8 @@ Each CDE associated with a Medical Condition within a federation of hospitals is
 | Mental Health | Prof. Pegah Sarkheil [psarkheil@ukaachen.de](mailto:psarkheil@ukaachen.de) | University Hospital RWTH, Aachen | V8 |
 | Epilepsy | Prof. Philippe Ryvlin [Philippe.Ryvlin@chuv.ch](mailto:Philippe.Ryvlin@chuv.ch) | Neurosciences Department, CHUV, Lausanne | V9 |
 | NeuroNet | Lewis Killin [lkillin@synapse-managers.com](mailto:lkillin@synapse-managers.com) | SYNAPSE Research Management Partners S.L. | V1 |
-| _Stroke (upcoming)_ |
- 
+| Stroke | Prof. Valeria Caso [vcaso@hotmail.com](mailto:vcaso@hotmail.com) & Georgios Tsivgoulis [tsivgoulisgiorg@yahoo.gr](mailto:tsivgoulisgiorg@yahoo.gr) | Azienda Ospedaliera Di Perugia & National and Kapodistrian University of Athens | V1 |
+
 ## Data cleaning, validation, and upload
 
 ### Check of the dataset quality against the CDEs
