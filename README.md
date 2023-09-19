@@ -6,7 +6,7 @@ A powerful federated data processing and analysis system that preserves patient 
 # Table of Content <!-- omit in toc --> 
 
 - [Preamble](#preamble)
-- [7.1 Release](#71-release)
+- [8.0 Release](#80-release-major-updates)
 - [MIP Components](#mip-components)
 - [Deployment](#deployment)
 - [Federated Analysis Algorithms](#federated-analysis-algorithms)
@@ -24,15 +24,22 @@ This information is evolving along with the MIP so please make sure you consult 
 
 In the following sections, links and references to useful information is made available.
 
-# 7.1 Release
+# 8.0 Release Major Updates
 
-The 7.1 release integrates a mechanism for Secure Multiparty Computation (SMPC), providing cryptographic guaranties that local, partial, results are never known. The feature is provided as an opt-in deployment configuration option and allows fine grained control over the enforcement of the SMPC pipeline.
+**1)** Initial integration of differential privacy, provided by the Secure Multiparty Computation (SMPC) cluster, providing cryptographic guaranties that local, partial, results are never known. 
+The feature is provided as an opt-in deployment configuration option and allows fine-grained control over the enforcement of it (differential-privacy) in the SMPC pipeline.
 
-Additionally, MIP deployment and operations has been moved to an orchestrator based approach and is currently offered through a Kubernetes managed cluster.
+**2)** The exareme2 engine was enhanced with workflow capabilities  and thus galaxy workflow engine were deprecated and removed.
 
-Several improvements are included in the MIP 7.1 release, including aspects for its scalability, performance, stability, operation and management. Health monitoring endpoints and visualization improvements have been introduced while experiment outcomes are now comprehensively bundled and are available for exporting from the end-users
+**3)** A new algorithmic approach has been used, where each node is creating its own model and all the models are summed using the [federated averaging](https://www.educative.io/answers/what-is-federated-averaging-fedavg) technique.
 
-Current version, pertinent to this documentation is release 7.1 . See [the release notes and individual component releases that comprise MIP 7.1](./Components.md)
+**4)** New algorithms include naive bayes, cross validation included, for nominal and numerical CDEs and SVM (Support Vector Machine) which uses the federated averaging technique.
+
+**5)** Documentation was added for integrating the ELK stack together with prometheus. These services, offer log aggregation, search and system resources monitoring across all nodes. 
+
+**6)** Several additional improvements are included in the MIP 8.0 release, including aspects for its security, stability, operation and monitoring.
+
+Current version, pertinent to this documentation is release 8.0 . See [the release notes and individual component releases that comprise MIP 8.0](./Components.md)
 
 # MIP Components
 
@@ -40,24 +47,17 @@ The main [MIP building blocks](./Components.md) are listed along with the respec
 
 # Deployment
 
-The MIP comes with a single code base but with two modes of deployment. On for local usage only, and one that enables the creation of a federation of nodes. Information on the different deployment approaches can be found in the following location:
+The MIP comes with a single code base but with two modes of deployment. One for local usage only, and one that enables the creation of a federation of nodes. Information on the different deployment approaches can be found in the following location:
 
-- [https://github.com/HBPMedical/mip-deployment/tree/7.1.0](https://github.com/HBPMedical/mip-deployment/tree/7.1.0)
+- [https://github.com/HBPMedical/mip-deployment](https://github.com/HBPMedical/mip-deployment)
 
 # Federated Analysis Algorithms
 
 This includes documentation on existing algorithm federation approach as well as information related to creating a new algorithm.
 
 - [Available federated analysis algorithms](./algorithms.md)
-- [Exareme Analytic Engine](https://github.com/madgik/exareme/tree/24.5.1)
-- [MIP-Engine Analytic Engine](https://github.com/madgik/MIP-Engine/tree/0.17.1)
+- [Exareme2 Analytic Engine](https://github.com/madgik/Exareme2)
 
-
-# SMPC Integration
-
-Integration with the SMPC engine is provided. The mechanism of Secure Multiparty Computation (SMPC) provides cryptographic guaranties that local, partial, results are never known. This way, a distributed system can behave like a single, centralized database. On top of this privacy enhancing technique, the MIP continues offering its federated analysis with its existing privacy aware methodologies, orthogonal to the additional layer of cryptographic privacy.
-
-The SMPC enabling layer is offered as an opt-in feature at the time of federation setup, allowing the provisioning and bootstrapping of an SMPC cluster. In addition to the cluster bootstrapping and configuration options given at infrastructure setup time, furhter, refined control can be provided at a per algorithm selection level to permit or enforce the usage of the SMPC pipelining.
 
 # Data Management
 
