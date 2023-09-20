@@ -24,7 +24,7 @@ Logistic Regression training is done by Maximum Likelihood Estimation (MLE) by g
 
 [Documentation](https://github.com/madgik/exareme/tree/master/Exareme-Docker/src/mip-algorithms/LOGISTIC_REGRESSION)
 
-### Naive Bayes
+### Naive Bayes Classifier
 In machine learning, naïve Bayes classifiers are a family of simple "probabilistic classifiers" based on applying Bayes' theorem with strong (naïve) independence assumptions between the features. The platform offers Gaussian Naive Bayes classification and Categorical Naive Bayes classification, and they both make use of the cross-validation technique. [Wikipedia](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
 
 [Documentation](https://github.com/madgik/exareme/tree/master/Exareme-Docker/src/mip-algorithms/NAIVE_BAYES_TRAINING)
