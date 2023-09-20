@@ -26,8 +26,7 @@ In the following sections, links and references to useful information is made av
 
 # 8.0 Release Major Updates
 
-**1)** Initial integration of differential privacy, provided by the Secure Multiparty Computation (SMPC) cluster, providing cryptographic guaranties that local, partial, results are never known. 
-The feature is provided as an opt-in deployment configuration option and allows fine-grained control over the enforcement of it (differential-privacy) in the SMPC pipeline.
+**1)** Initial integration of differential privacy mechanisms within the Secure Multiparty Computation (SMPC) cluster, providing a global differential privacy guarantee for federated analytics, which gives a better utility for the same privacy budget compared to the local differential privacy alternative. The feature is provided as an opt-in deployment configuration option and allows fine-grained control over the enforcement of it (differential-privacy) in the SMPC pipeline.
 
 **2)** The exareme2 engine was enhanced with workflow capabilities  and thus galaxy workflow engine were deprecated and removed.
 
