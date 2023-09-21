@@ -87,7 +87,6 @@ For a high-level description of the MIP please consult:
 
 # Tutorials
 - Basic skills to start working with the MIP and conduct initial experiments [Videos List](./video-tutorial.md)
-- [MIP Guide](./docs/mip_guide_updated.pdf)
 
 # Acknowledgement
 This project/research received funding from the European Union’s Horizon 2020 Framework Programme for Research and Innovation under the Framework Partnership Agreement No. 650003 (HBP FPA).
