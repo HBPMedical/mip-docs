@@ -1,6 +1,6 @@
 # Federated Analysis Algorithms Descriptions
 
-More information on the available federated analysis algorithms, although retrievable through the individual component list, can be directly found on [https://github.com/madgik/exareme2/tree/master/exareme2/documentation/algorithms](https://github.com/madgik/exareme2/tree/master/exareme2/documentation/algorithms)
+More information on the available federated analysis algorithms, although retrievable through the individual component list, can be directly found on [https://github.com/madgik/exareme2/tree/master/exareme2/documentation/algorithms](https://github.com/madgik/exareme2/tree/master/documentation/algorithms)
 
 This includes documentation on the existing algorithm federation approach, unit tests, as well as information related to creating a new algorithm.
 
@@ -47,12 +47,12 @@ In machine learning, support vector machines (SVMs, also support vector networks
 ### Independent T-Test
 The Student’s Independent sample t-test (sometimes called a two-sample t-test) is used to test the null hypothesis that two groups have the same mean. A low p-value suggests that the null hypothesis is not true, and therefore the group means are different. In each local dataset, let x and y be the variables of interest. y is the grouping variable with two levels.  
 
-[Documentation](https://github.com/madgik/exareme2/tree/master/documentation/algorithms/IndependentTtest.md)
+[Documentation](https://github.com/madgik/exareme2/tree/master/documentation/algorithms/IndependentTtestIndependent.md)
 
 ### One-Sample T-Test 
 The Student’s One-sample t-test is used to test the null hypothesis that the true mean is equal to a particular value (typically zero). A low p-value suggests that the null hypothesis is not true, and therefore the true mean (μ) must be different from the test value. In each local dataset, let xj be the variable of interest.  
 
-[Documentation](https://github.com/madgik/exareme2/tree/master/documentation/algorithms/OneSampleTtest.md)
+[Documentation](https://github.com/madgik/exareme2/tree/master/documentation/algorithms/TtestOneSample.md)
 
 ### Paired T-Test 
 The Student’s paired samples t-test (sometimes called a dependent-samples t-test) is used to test the null hypothesis that the difference between pairs of measurements is equal to zero. A low p-value suggests that the null hypothesis is not true, and that the difference between the measurement pairs is not zero. In each local dataset, let xj1 and xj2 be the variables of interest.  
