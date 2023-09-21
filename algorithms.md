@@ -1,6 +1,6 @@
 # Federated Analysis Algorithms Descriptions
 
-More information on the available federated analysis algorithms, although retrievable through the individual component list, can be directly found on [https://github.com/madgik/exareme/tree/24.3.0/Exareme-Docker/src/mip-algorithms](https://github.com/madgik/exareme/tree/24.3.0/Exareme-Docker/src/mip-algorithms)
+More information on the available federated analysis algorithms, although retrievable through the individual component list, can be directly found on [https://github.com/madgik/exareme2/tree/master/exareme2/algorithms](https://github.com/madgik/exareme2/tree/master/exareme2/algorithms)
 
 This includes documentation on the existing algorithm federation approach, unit tests, as well as information related to creating a new algorithm.
 
@@ -42,7 +42,7 @@ The are usually two approaches for computing the principal components. The first
 ### Support Vector Machine (SVM)
 In machine learning, support vector machines (SVMs, also support vector networks[1]) are supervised learning models with associated learning algorithms that analyze data for classification and regression analysis. [Wikipedia](https://en.wikipedia.org/wiki/Support_vector_machine)
 
-[Documentation](https://github.com/madgik/exareme2/documentation/algorithms_docs/ANOVA.md)
+[Documentation](https://github.com/madgik/exareme2/documentation/algorithms_docs/SVM.md)
 
 ### T-Test Independent
 The Student’s Independent sample t-test (sometimes called a two-sample t-test) is used to test the null hypothesis that two groups have the same mean. A low p-value suggests that the null hypothesis is not true, and therefore the group means are different. In each local dataset, let x and y be the variables of interest. y is the grouping variable with two levels.  
