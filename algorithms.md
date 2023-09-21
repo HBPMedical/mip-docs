@@ -1,6 +1,6 @@
 # Federated Analysis Algorithms Descriptions
 
-More information on the available federated analysis algorithms, although retrievable through the individual component list, can be directly found on [https://github.com/madgik/exareme2/tree/master/exareme2/algorithms](https://github.com/madgik/exareme2/tree/master/exareme2/algorithms)
+More information on the available federated analysis algorithms, although retrievable through the individual component list, can be directly found on [https://github.com/madgik/exareme2/tree/master/exareme2/documentation/algorithms](https://github.com/madgik/exareme2/tree/master/exareme2/documentation/algorithms)
 
 This includes documentation on the existing algorithm federation approach, unit tests, as well as information related to creating a new algorithm.
 
