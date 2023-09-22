@@ -34,7 +34,7 @@ In the following sections, links and references to useful information is made av
 
 **4)** New algorithms include naive bayes, cross validation included, for nominal and numerical CDEs and SVM (Support Vector Machine) which uses the federated averaging technique.
 
-**5)** Documentation was added for integrating the ELK stack together with prometheus. These services, offer log aggregation, search and system resources monitoring across all nodes. 
+**5)** Integration documentation was added for the microk8s observability addon. The addon inclused the following stack: Grafana, Prometheus and Loki. These services, offer log aggregation, search and system resources monitoring across all nodes. 
 
 **6)** Several additional improvements are included in the MIP 8.0 release, including aspects for its security, stability, operation and monitoring.
 
