@@ -32,7 +32,7 @@ In the following sections, links and references to useful information is made av
 
 **3)** A new algorithmic approach has been used, where each node is creating its own model and all the models are summed using the [federated averaging](https://www.educative.io/answers/what-is-federated-averaging-fedavg) technique.
 
-**4)** New algorithms include naive bayes, cross validation included, for nominal and numerical CDEs and SVM (Support Vector Machine) which uses the federated averaging technique.
+**4)** New algorithms include naive bayes, cross validation included, for nominal and numerical CDEs.
 
 **5)** Integration documentation was added for the microk8s observability addon. The addon inclused the following stack: Grafana, Prometheus and Loki. These services, offer log aggregation, search and system resources monitoring across all nodes. 
 
