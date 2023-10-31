@@ -48,7 +48,7 @@ The main [MIP building blocks](./Components.md) are listed along with the respec
 
 The MIP comes with a single code base but with two modes of deployment. One for local usage only, and one that enables the creation of a federation of nodes. Information on the different deployment approaches can be found in the following location:
 
-- [https://github.com/HBPMedical/mip-deployment](https://github.com/HBPMedical/mip-deployment/tree/8.0.0)
+- [https://github.com/HBPMedical/mip-deployment/tree/8.0.0](https://github.com/HBPMedical/mip-deployment/tree/8.0.0)
 
 # Federated Analysis Algorithms
 
