@@ -48,14 +48,14 @@ The main [MIP building blocks](./Components.md) are listed along with the respec
 
 The MIP comes with a single code base but with two modes of deployment. One for local usage only, and one that enables the creation of a federation of nodes. Information on the different deployment approaches can be found in the following location:
 
-- [https://github.com/HBPMedical/mip-deployment](https://github.com/HBPMedical/mip-deployment)
+- [https://github.com/HBPMedical/mip-deployment](https://github.com/HBPMedical/mip-deployment/tree/8.0.0)
 
 # Federated Analysis Algorithms
 
 This includes documentation on existing algorithm federation approach as well as information related to creating a new algorithm.
 
 - [Available federated analysis algorithms](./algorithms.md)
-- [Exareme2 Analytic Engine](https://github.com/madgik/Exareme2)
+- [Exareme2 Analytic Engine](https://github.com/madgik/Exareme2/tree/0.20.0)
 
 
 # Data Management
