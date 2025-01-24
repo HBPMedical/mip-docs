@@ -68,7 +68,7 @@ A detailed user guide for Data Quality Control tool can be found here:
  - [Data Quality Control Tool Guide](https://github.com/HBPMedical/DataQualityControlTool/wiki)
 
 Data Catalog is a component of the Medical Informatics Platform (MIP) for the EBrains. It enables seamless management, visualization, and access to data models and medical conditions.
- - [Data Catalog Guide](https://github.com/madgik/datacatalog)
+ - [Data Catalog Guide](https://github.com/madgik/datacatalog/tree/1.0.0)
 
 # High Level Description
 
