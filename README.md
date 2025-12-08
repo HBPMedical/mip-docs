@@ -1,12 +1,12 @@
 # Technical Documentation for the Medical Informatics Platform (MIP)  <!-- omit in toc --> 
 
 
-A powerful federated data processing and analysis system that preserves patient privacy. More info on the [MIP Website](https://ebrains.eu/service/medical-informatics-platform/) 
+A powerful federated data processing and analysis system that preserves patient privacy. More info on the [MIP Website](https://ebrains.eu/data-tools-services/medical-analytics/medical-informatics-platform) 
 
 # Table of Content <!-- omit in toc --> 
 
 - [Preamble](#preamble)
-- [8.0 Release](#80-release-major-updates)
+- [8.5 Release](#85-release-major-updates)
 - [MIP Components](#mip-components)
 - [Deployment](#deployment)
 - [Federated Analysis Algorithms](#federated-analysis-algorithms)
@@ -24,21 +24,38 @@ This information is evolving along with the MIP so please make sure you consult 
 
 In the following sections, links and references to useful information is made available.
 
-# 8.0 Release Major Updates
+# MIP 8.5 Release – Major Updates
 
-**1)** Initial integration of differential privacy mechanisms within the Secure Multiparty Computation (SMPC) cluster, providing a global differential privacy guarantee for federated analytics, which gives a better utility for the same privacy budget compared to the local differential privacy alternative. The feature is provided as an opt-in deployment configuration option and allows fine-grained control over the enforcement of it (differential-privacy) in the SMPC pipeline.
+## **Exareme2 – Federated Strategy Framework Integration**
 
-**2)** The exareme2 engine was enhanced with workflow capabilities  and thus galaxy workflow engine were deprecated and removed.
+Exareme2 has been enhanced with a new *exaflow* pipeline and an updated core engine. The system now supports integration with frameworks such as Flower, that can be used to plug in federated learning strategies. As part of this evolution, the aggregation approach has been redesigned to operate through a dedicated aggregation component within the pipeline.
 
-**3)** A new algorithmic approach has been used, where each node is creating its own model and all the models are summed using the [federated averaging](https://www.educative.io/answers/what-is-federated-averaging-fedavg) technique.
+## **Frontend Enhancements**
 
-**4)** New algorithms include naive bayes, cross validation included, for nominal and numerical CDEs.
+The MIP frontend has been improved with updated visuals, refined aesthetics, and additional features that enhance data visualization and user interaction.
 
-**5)** Integration documentation was added for the microk8s observability addon. The addon inclused the following stack: Grafana, Prometheus and Loki. These services, offer log aggregation, search and system resources monitoring across all nodes. 
+## **Migration to Managed Cluster Setup**
 
-**6)** Several additional improvements are included in the MIP 8.0 release, including aspects for its security, stability, operation and monitoring.
+The MIP infrastructure has been migrated to a fully managed cluster setup, leveraging:
 
-Current version, pertinent to this documentation is release 8.0 . See [the release notes and individual component releases that comprise MIP 8.0](./Components.md)
+* ArgoCD, Submariner, and other cloud-native tooling for GitOps-driven, scalable deployments
+* Infrastructure-as-code workflows, maintained in the following repository:
+  [https://github.com/Medical-Informatics-Platform/mip-infra](https://github.com/Medical-Informatics-Platform/mip-infra)
+
+## **Data Catalog Revamp**
+
+The Data Catalog has been completely rebuilt to:
+
+* Represent all existing MIP federations
+* Describe each pathology’s data model, including variables, attributes, and hierarchical relationships
+* Provide an interactive tree visualization using D3 TidyTree
+
+The new Data Catalog is available here:
+[https://datacatalogue.mip.ebrains.eu](https://datacatalogue.mip.ebrains.eu)
+
+## **ECK-based Monitoring**
+
+A unified monitoring layer using Elastic Cloud on Kubernetes (ECK) has been deployed across the managed cluster, enabling improved observability and operational insight for all federations.
 
 # MIP Components
 
@@ -48,14 +65,14 @@ The main [MIP building blocks](./Components.md) are listed along with the respec
 
 The MIP comes with a single code base but with two modes of deployment. One for local usage only, and one that enables the creation of a federation of nodes. Information on the different deployment approaches can be found in the following location:
 
-- [https://github.com/HBPMedical/mip-deployment/tree/8.0.0](https://github.com/HBPMedical/mip-deployment/tree/8.0.0)
+- [https://github.com/HBPMedical/mip-deployment/tree/8.5.0](https://github.com/HBPMedical/mip-deployment/tree/8.5.0)
 
 # Federated Analysis Algorithms
 
 This includes documentation on existing algorithm federation approach as well as information related to creating a new algorithm.
 
 - [Available federated analysis algorithms](./algorithms.md)
-- [Exareme2 Analytic Engine](https://github.com/madgik/Exareme2/tree/0.20.0)
+- [Exareme2 Analytic Engine](https://github.com/madgik/Exareme2/tree/0.28.0)
 
 
 # Data Management
@@ -74,7 +91,7 @@ Data Catalog is a component of the Medical Informatics Platform (MIP) for the EB
 
 For a high-level description of the MIP please consult:
 
-- [The MIP: A powerful federated data processing and analysis system that preserves patient privacy](https://ebrains.eu/service/medical-informatics-platform/) on EBRAINS research infrastructure
+- [The MIP: A powerful federated data processing and analysis system that preserves patient privacy](https://ebrains.eu/data-tools-services/medical-analytics/medical-informatics-platform) on EBRAINS research infrastructure
 
 
 # Architecture
